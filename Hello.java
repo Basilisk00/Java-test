@@ -12,8 +12,13 @@ public class Hello {
         Random rand = new Random();
 
         for (int i = 0; i < 50; i ++) {
-            val = rand;
+            val = rand.nextInt();
         }
         System.out.println(val);
+
+        System.out.println(val + 1);
+
+        
+
     }
 }
